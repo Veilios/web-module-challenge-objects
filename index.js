@@ -5,8 +5,12 @@ const burger = {name: "Burger",
   price: 18, 
   category: "Lunch", 
   discount: function(person){
-    if(person === "Teacher"){
-
+    if(person === "teacher" || person === "student"){
+      price = this.price * (.75);
+      return price;
+    } else if(person === "public"){
+      price = this.price * (.90);
+      return price;
     }
   }
 };
@@ -15,17 +19,13 @@ const breakfastBurrito = {name: "Breakfast Burrito", price: 16, category:"Breakf
 /* Task 1a: write a function to return more menu items with the same format as the items above. */
 
 function createMenuItem(name, cost, category){
-  const newItem = new Object();
-  newItem.name = name;
-  newItem.price = cost;
-  newItem.category = category;
-  return newItem;
+  return {name, cost, category};
 }
 
 /* Task 1b: use your function to create 3 more menu items. You may add any items to the menu that you'd like */
 
-//createMenuItem("Taco", "4", "Lunch");
-//console.log(newItem);
+console.log(createMenuItem("Taco", "4", "Lunch"));
+console.log()
 
 /* Task 2: You're having a lunch special! 25% off for teachers and students, 10% off for everyone else. Add a method to your burger object that automatically calculates price given a string as a parameter. 
 
@@ -37,7 +37,7 @@ and should return a number.
 
 For example, burger.discount("teacher") would return 13.5 and burger.discount("public") would return 16.2*/
 
-
+console.log(burger.discount("student"));
 
 ///////////////Reviews (MVP)///////////////////
 

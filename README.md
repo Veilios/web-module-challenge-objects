@@ -15,12 +15,12 @@ You've been contracted by a restaurant to start building out their website. Befo
 
 ### Task 1: Set up Project
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [Done] Create a forked copy of this project
+- [Done] Add your team lead as collaborator on Github
+- [Done] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [Done] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [Done] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [Done] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: MVP
 

@@ -57,6 +57,8 @@ const reviews = [{name: "Daniela", rating: 5, feedback:"Beautiful atmosphere and
 
 // Task 4: Add a new rating with your (fictitious) opinions of the restaurant in the same format as the reviews above. */
 
+//reviews.push({name: "Alan", rating: 5, feedback: "Totally recommend for everyone. If my friends invite me, it's always a bet!"});
+
 
 // Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
 
